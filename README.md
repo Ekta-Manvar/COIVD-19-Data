@@ -4,12 +4,11 @@ DataSource Link: <a href="https://ourworldindata.org/covid-vaccinations" traget=
 
 Skills Used:
 <ul>
-  <li>Joins</li>
-Pivot Table
- Common Table Expression(CTE)
-Aggregation Functions (MAX, SUM)
-Views
- Functions ( CAST, ROUND, CONCAT, YEAR, ISNULL)
-ALTER Column
-is not null, is null Constraints
+	<li>Pivot Table</li>
+	<li> Common Table Expression(CTE)</li>
+	<li>Aggregation Functions (MAX, SUM)</li>
+	<li>Views</li>
+	<li> Functions ( CAST, ROUND, CONCAT, YEAR, ISNULL)</li>
+	<li>ALTER Column</li>
+	<li>is not null, is null Constraints</li>
 </ul>
