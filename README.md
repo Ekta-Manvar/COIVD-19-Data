@@ -11,4 +11,5 @@ Skills Used:
 	<li> Functions ( CAST, ROUND, CONCAT, YEAR, ISNULL)</li>
 	<li>ALTER Column</li>
 	<li>is not null, is null Constraints</li>
+	<li>TOP Records</li>
 </ul>
