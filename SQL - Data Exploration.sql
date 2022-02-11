@@ -1,4 +1,4 @@
-
+ 
 /****** CoivdData from Feb 24, 2020 to Jan 25, 2022  ******/
 
 
@@ -167,7 +167,7 @@ ORDER BY location
   ALTER COLUMN total_boosters BIGINT
 
 
-  -- selected required data for visualization - Used in tableau custom SQL after connecting with database 
+  -- selected required data for visualization - Used in tableau <b>custom SQL query</b> after connecting with database 
 
  SELECT d.continent AS Continent, d.location AS Country, 
         d.date AS Date, d.population AS Population, 
