@@ -170,9 +170,14 @@ ORDER BY location
   -- selected required data for visualization - Used in tableau custom SQL query after connecting with database 
 
   -- selected required data for visualization - Used in tableau custom SQL after connecting with database 
-
- SELECT d.continent AS Continent, d.location AS Country, 
-        d.date AS Date, d.population AS Population, 
+SELECT d.continent AS Continent, 
+          CASE d.location 
+		    WHEN 'United States' THEN 'US'
+			WHEN 'United Kingdom' THEN 'UK'
+			ELSE d.location
+		   END
+		   AS Country, 
+         d.date AS Date, d.population AS Population, 
          ISNULL(d.new_cases,0) AS New_Cases, 
          ISNULL(d.new_deaths, 0) AS New_Deaths,  
          ISNULL(d.hosp_patients,0) AS Hospitalized, 
@@ -184,8 +189,11 @@ ORDER BY location
   FROM portfolio.dbo.CovidDeaths d
   JOIN portfolio.dbo.CovidVaccinations v
   ON d.date=v.date and d.location=v.location
-  WHERE d.continent is not null
+  WHERE d.continent is not null 
   ORDER BY d.location
+
+
+
 
 
   
