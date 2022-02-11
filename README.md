@@ -8,6 +8,7 @@ Skills Used:
 	<li> Common Table Expression(CTE)</li>
 	<li>Aggregation Functions (MAX, SUM)</li>
 	<li>Views</li>
+	<li>CASE Statement</li>
 	<li> Functions ( CAST, ROUND, CONCAT, YEAR, ISNULL)</li>
 	<li>ALTER Column</li>
 	<li>is not null, is null Constraints</li>
