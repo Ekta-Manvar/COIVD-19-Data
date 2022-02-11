@@ -167,7 +167,7 @@ ORDER BY location
   ALTER COLUMN total_boosters BIGINT
 
 
-  -- selected required data for visualization - Used in tableau <b>custom SQL query</b> after connecting with database 
+  -- selected required data for visualization - Used in tableau custom SQL query after connecting with database 
 
  SELECT d.continent AS Continent, d.location AS Country, 
         d.date AS Date, d.population AS Population, 
