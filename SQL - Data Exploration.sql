@@ -190,7 +190,7 @@ SELECT d.continent AS Continent,
   JOIN portfolio.dbo.CovidVaccinations v
   ON d.date=v.date and d.location=v.location
   WHERE d.continent is not null 
-  ORDER BY d.location
+  
 
 
 
